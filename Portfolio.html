@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+</head>
+<style>
+    body{
+        background-color: #987456;
+    }
+    div{
+        background-color: #4b3621;
+        width: 1330px;
+        height: 77px;
+    }
+    header{
+        position: relative;
+        left:35px;
+        font-size: 60px;
+    }
+
+    iframe{
+		border: 5px solid black;
+        position: absolute;
+        top:120px;
+        left: 50px;
+        bottom:50px;
+
+    }
+    a{
+        position: relative;
+        left:65px;
+}
+    a:link {
+  color: #987456;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #987456;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #987456;
+  background-color: transparent;
+  text-decoration: wavy;
+}
+</style>
+<body>
+    <div>
+    <header> MyPortfolioWebsite</header>
+    <a style="color:black;position:absolute;top:20px;left:920px;font-size: 40px;" href="Home.html" target="iframe1">Home |</a>
+    <a style="color:black;position:absolute;top:20px;left:1045px;font-size: 40px;"href="Aboutme.html" target="iframe1">About |</a>
+    <a style="color:black;position:absolute;top:20px;left:1170px;font-size: 40px;"href="Contacts.html" target="iframe1">Contacts</a>
+
+</div>
+    <iframe name="iframe1" src="Home.html" width="1245" height="450" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>
